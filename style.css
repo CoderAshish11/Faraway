@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    scrollbar-width: 10px;
+}
+
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(travel.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+    height: 700px;
+}
+.navbar {
+    display: flex;
+    height: 70px;
+    border-bottom: 2px solid rgb(82, 82, 82);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo h1 {
+    background: none;
+    border: none;
+    color: white;
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: x-large;
+}
+.ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.ul li {
+    color: rgba(255,255,255,0.7);
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.symbol img{
+    height: 60px;
+    width: 60px;
+    border-radius: 150px;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+.sec-1 {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.sec-2{
+    width: 30%;
+}
+
+.menu{
+    height: 300px;
+    width: 100%;
+    background-color: #004165;
+    transition: all 0.3s ease-out;
+}
+
+.burger{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 20px;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 2px;
+}
+
+.main-body {
+    background-color: #FFF8DE;
+    width: 100%;
+}
+
+.search-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.search-para h1{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.search-para p{
+    color: white;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input {
+    background: none;
+    width: 381px;
+    padding: 9px;
+    border-radius: 16px;
+    border: 2px solid white;
+    font-size: 16px;
+    color: azure;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} 
+
+.btn-sm {
+    background: none;
+    border: none;
+}
+.btn-sm i{
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sub-sec {
+    height: 100%;
+    text-align: center;
+    margin: 0 30px;
+    background-color: white;
+    background-color: #e9f6fa;
+}
+
+.sub-sec h1{
+    padding: 50px 0;
+    color: #091057;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.destinations {
+
+    width: 800px;
+    height: 500px;
+    background-color: bisque;
+    background: rgba(0, 0, 0, 0.4) url(aus\ \(2\).jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 360px;
+    padding-left: 20px;
+}
+
+.info h2{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.info p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.info button{
+    margin-top: 10px;
+    background: white;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.destination1 {
+    width: 800px;
+    height: 500px;
+    background-color: bisque;
+    background: rgba(0, 0, 0, 0.5) url(france.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+}
+
+.destination2 {
+    width: 800px;
+    height: 500px;
+    background-color: bisque;
+    background: rgba(0, 0, 0, 0.5) url(london.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+}
+
+.destination3 {
+    width: 800px;
+    height: 500px;
+    background-color: bisque;
+    background: rgba(0, 0, 0, 0.5) url(swrlnd.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+}
+
+.about {
+    height: 300px;
+    margin-top: 30px;
+    background-color: #004165;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footerLogo {
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    top: -114px;
+    left: 450px;
+}
+
+.footerLogo i{
+}
+
+.about-info {
+
+    height: 270px;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.contact ul li{
+    list-style: none;
+    padding: 10px;
+}
+.contact h4{
+    margin-top: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.contact ul li i{
+    margin-right: 15px;
+    color: #47bdff;
+}
+
+.contact #youtube{
+    margin-left: -14px;
+}
+
+.lang{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    text-align: start;
+    padding-top: 30px;
+}
+
+.lang h4{
+    padding:  0 0 0 10px;
+    display: block;
+    color: white;
+}
+
+.lang select{
+    margin-top: 28px;
+    background: none;
+    background-color: #004165;
+    padding: 19px;
+    color: white;
+    border: 2px solid #47bdff;
+    font-size: 16px;
+}
+
+.about-site{
+    margin-left: -168px;
+    margin-top: -3px;
+}
+
+.about-site a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.about-site a:hover{
+    text-decoration: underline;
+}
+
+.contact ul li a:hover{
+    text-decoration: underline;
+}
+
+.info button:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.ul li:hover{
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.footer{
+    text-align: center;
+    padding: 16px;
+    font-family: 'ubuntu', sans-serif;
+    background: rgba(0, 0, 0, 0.7) url(travel.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 15px;
+    color: white;
+}
